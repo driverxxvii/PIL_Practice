@@ -7,8 +7,8 @@ import pathlib
 
 def main():
     new_size = (3840, 2160)     # 4K resolution
-    dir_path = pathlib.Path(r"C:\Users\Hifas\Google Drive\Python Projects\RedditBot\Images")
-    save_path = pathlib.Path(r"C:\Users\Hifas\Google Drive\Wallpapers - Reddit")
+    dir_path = pathlib.Path(r"C:\RedditBot\Images")
+    save_path = pathlib.Path(r"C:\Wallpapers - Reddit")
 
     if not save_path.exists():
         pathlib.Path(save_path).mkdir()
